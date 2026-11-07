@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gold review</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1b1b18; --muted: #6f6e68;
+    --line: #e4e2db; --accent: #1f6f5c; --accent-soft: #e3efe9; --warn: #a4462c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121211; --panel: #1a1a18; --ink: #ecebe6; --muted: #8f8e88;
+            --line: #2b2a27; --accent: #5fb89c; --accent-soft: #1d2b26; --warn: #e08a6e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; }
+  h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  .count { font: 13px ui-monospace, "SF Mono", Consolas, monospace; color: var(--muted); }
+  .bar { height: 2px; background: var(--line); margin-bottom: 28px; }
+  .bar > i { display: block; height: 100%; background: var(--accent); transition: width .2s; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 24px; }
+  .brand { font: 12px ui-monospace, Consolas, monospace; color: var(--muted); margin-bottom: 10px; }
+  .text { font-size: 18px; line-height: 1.55; min-height: 84px; overflow-wrap: anywhere; }
+  .group { margin-top: 24px; }
+  .label { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 6px; }
+  button { all: unset; cursor: pointer; border: 1px solid var(--line); border-radius: 7px;
+           padding: 8px 10px; display: flex; gap: 10px; align-items: baseline; }
+  button:hover { border-color: var(--muted); }
+  button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  kbd { font: 11px ui-monospace, Consolas, monospace; color: var(--muted); min-width: 10px; }
+  .name { font-weight: 550; }
+  .hint { font-size: 12px; color: var(--muted); display: block; margin-top: 2px; }
+  footer { margin-top: 18px; font-size: 12px; color: var(--muted); display: flex; gap: 18px; flex-wrap: wrap; }
+  .done { text-align: center; padding: 48px 0; }
+  .err { color: var(--warn); }
+</style>
+</head>
+<body>
+<main>
+  <header><h1>Gold set review</h1><span class="count" id="count"></span></header>
+  <div class="bar"><i id="progress"></i></div>
+  <div id="root"></div>
+  <footer>
+    <span><kbd>1–8</kbd> category</span><span><kbd>H M L</kbd> priority</span>
+    <span><kbd>S</kbd> skip (not English / unreadable)</span><span><kbd>←</kbd> back</span>
+  </footer>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+let tickets = [], cats = {}, pris = {}, answers = new Map(), i = 0, pick = {};
+
+function firstOpen() {
+  const k = tickets.findIndex((t) => !answers.has(t.id));
+  return k === -1 ? tickets.length : k;
+}
+
+function render() {
+  const n = answers.size;
+  $("#count").textContent = `${n} / ${tickets.length}`;
+  $("#progress").style.width = `${(n / tickets.length) * 100}%`;
+  if (i >= tickets.length) {
+    $("#root").innerHTML = `<div class="card done">All ${tickets.length} labelled. You can close this tab.</div>`;
+    return;
+  }
+  const t = tickets[i];
+  const prev = answers.get(t.id);
+  pick = prev && !prev.skip ? { category: prev.category, priority: prev.priority } : {};
+  const opt = (key, name, hint, kind) =>
+    `<button data-kind="${kind}" data-v="${name}" aria-pressed="${pick[kind] === name}">
+       <kbd>${key}</kbd><span><span class="name">${name}</span><span class="hint">${hint}</span></span></button>`;
+  $("#root").innerHTML = `
+    <div class="card">
+      <div class="brand">#${i + 1} · ${t.brand}</div>
+      <div class="text"></div>
+      <div class="group"><div class="label">Category</div>
+        <div class="opts">${Object.entries(cats).map(([c, h], k) => opt(k + 1, c, h, "category")).join("")}</div></div>
+      <div class="group"><div class="label">Priority</div>
+        <div class="opts">${Object.entries(pris).map(([p, h]) => opt(p[0].toUpperCase(), p, h, "priority")).join("")}</div></div>
+    </div>`;
+  $(".text").textContent = t.text;
+  document.querySelectorAll("button").forEach((b) =>
+    b.addEventListener("click", () => choose(b.dataset.kind, b.dataset.v)));
+}
+
+async function save(row) {
+  const r = await fetch("/label", { method: "POST", body: JSON.stringify(row) });
+  if (!r.ok) throw new Error(await r.text());
+  answers.set(row.id, row);
+}
+
+async function choose(kind, value) {
+  pick[kind] = value;
+  if (pick.category && pick.priority) {
+    try {
+      await save({ id: tickets[i].id, category: pick.category, priority: pick.priority });
+      i = firstOpen();
+    } catch (e) {
+      $("#count").innerHTML = `<span class="err">save failed: ${e.message}</span>`;
+      return;
+    }
+  }
+  render();
+}
+
+document.addEventListener("keydown", async (e) => {
+  if (e.ctrlKey || e.metaKey || e.altKey || i >= tickets.length && e.key !== "ArrowLeft") return;
+  const k = e.key.toLowerCase();
+  const catNames = Object.keys(cats);
+  if (/^[1-8]$/.test(k)) choose("category", catNames[+k - 1]);
+  else if (k === "h") choose("priority", "high");
+  else if (k === "m") choose("priority", "medium");
+  else if (k === "l") choose("priority", "low");
+  else if (k === "s") { await save({ id: tickets[i].id, skip: true }); i = firstOpen(); render(); }
+  else if (e.key === "ArrowLeft" && i > 0) { i--; render(); }
+});
+
+fetch("/data").then((r) => r.json()).then((d) => {
+  tickets = d.tickets; cats = d.categories; pris = d.priorities;
+  d.done.forEach((row) => answers.set(row.id, row));
+  i = firstOpen();
+  render();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "963972",
+  "brand": "sprintcare",
+  "text": "@user what’s going on with yall service??? Y’all trippin",
+  "receivedAt": 1794065585535,
+  "doneAt": 1794065586621,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.4861,
+  "route": "llm",
+  "modelMs": 14.18,
+  "llmMs": 1072.4,
+  "student": {
+   "category": "technical",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0082,
+    "delivery": 0.0602,
+    "account": 0.0054,
+    "technical": 0.7165,
+    "travel": 0.0353,
+    "service": 0.1532,
+    "question": 0.0036,
+    "other": 0.0175
+   },
+   "priority": {
+    "high": 0.4861,
+    "medium": 0.4833,
+    "low": 0.0306
+   }
+  }
+ },
+ {
+  "id": "803931",
+  "brand": "ask_progressive",
+  "text": "@user I get that I’m not covered for roadside assistance but a wait of 5 hours for a paid towed truck? Come on....",
+  "receivedAt": 1794065562535,
+  "doneAt": 1794065563647,
+  "burst": false,
+  "category": "service",
+  "priority": "high",
+  "confidence": 0.3954,
+  "route": "llm",
+  "modelMs": 5.51,
+  "llmMs": 1107.3,
+  "student": {
+   "category": "travel",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.2094,
+    "delivery": 0.0789,
+    "account": 0.0169,
+    "technical": 0.0208,
+    "travel": 0.3954,
+    "service": 0.2655,
+    "question": 0.0043,
+    "other": 0.0086
+   },
+   "priority": {
+    "high": 0.6211,
+    "medium": 0.3701,
+    "low": 0.0088
+   }
+  }
+ },
+ {
+  "id": "242197",
+  "brand": "AskVirginMoney",
+  "text": "@user I didn't receive an email notification that my statement was available so now have a late payment charge. Why is this please?",
+  "receivedAt": 1794065539535,
+  "doneAt": 1794065540595,
+  "burst": false,
+  "category": "billing",
+  "priority": "high",
+  "confidence": 0.4869,
+  "route": "llm",
+  "modelMs": 15.23,
+  "llmMs": 1045.5,
+  "student": {
+   "category": "billing",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.9698,
+    "delivery": 0.0044,
+    "account": 0.0138,
+    "technical": 0.0029,
+    "travel": 0.0016,
+    "service": 0.0029,
+    "question": 0.0033,
+    "other": 0.0013
+   },
+   "priority": {
+    "high": 0.4869,
+    "medium": 0.4744,
+    "low": 0.0388
+   }
+  }
+ },
+ {
+  "id": "2550853",
+  "brand": "AldiUK",
+  "text": "@AldiUK just getting two tube trains from Shepherds Bush to Kingsbury... Please open an Aldi nearer 😊",
+  "receivedAt": 1794065516535,
+  "doneAt": 1794065517504,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.5119,
+  "route": "llm",
+  "modelMs": 4.84,
+  "llmMs": 964.6,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0032,
+    "delivery": 0.0453,
+    "account": 0.0021,
+    "technical": 0.0043,
+    "travel": 0.8233,
+    "service": 0.0538,
+    "question": 0.0497,
+    "other": 0.0184
+   },
+   "priority": {
+    "high": 0.0495,
+    "medium": 0.5119,
+    "low": 0.4386
+   }
+  }
+ },
+ {
+  "id": "2648642",
+  "brand": "AirAsiaSupport",
+  "text": "@AirAsiaSupport where can I submit a complaint?",
+  "receivedAt": 1794065493535,
+  "doneAt": 1794065493538,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7579,
+  "route": "model",
+  "modelMs": 3.41,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.018,
+    "delivery": 0.0059,
+    "account": 0.0119,
+    "technical": 0.0123,
+    "travel": 0.1214,
+    "service": 0.7579,
+    "question": 0.0596,
+    "other": 0.0129
+   },
+   "priority": {
+    "high": 0.069,
+    "medium": 0.8028,
+    "low": 0.1282
+   }
+  }
+ },
+ {
+  "id": "1837453",
+  "brand": "AskCiti",
+  "text": "@user, I am still waiting for someone to contact me regarding your horrible customer service!!",
+  "receivedAt": 1794065470535,
+  "doneAt": 1794065470539,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7587,
+  "route": "model",
+  "modelMs": 4.5,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0023,
+    "delivery": 0.0122,
+    "account": 0.0055,
+    "technical": 0.0027,
+    "travel": 0.0027,
+    "service": 0.9645,
+    "question": 0.0022,
+    "other": 0.0078
+   },
+   "priority": {
+    "high": 0.1626,
+    "medium": 0.7587,
+    "low": 0.0788
+   }
+  }
+ },
+ {
+  "id": "2770623",
+  "brand": "AskLyft",
+  "text": "Sent an email to @user customer service 3 weeks ago and have not heard from them at all. Lyft/Uber are trash. #ridewithfasten",
+  "receivedAt": 1794065447535,
+  "doneAt": 1794065447540,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7262,
+  "route": "model",
+  "modelMs": 5.45,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0093,
+    "delivery": 0.0071,
+    "account": 0.0076,
+    "technical": 0.0039,
+    "travel": 0.0067,
+    "service": 0.9483,
+    "question": 0.0029,
+    "other": 0.0142
+   },
+   "priority": {
+    "high": 0.15,
+    "medium": 0.7262,
+    "low": 0.1238
+   }
+  }
+ },
+ {
+  "id": "2613823",
+  "brand": "ATVIAssist",
+  "text": "@user can somebody help me With rank reset bug? Its cod black ops multiplayer pc. Steam name is Instinct <url>",
+  "receivedAt": 1794065424535,
+  "doneAt": 1794065424543,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.8547,
+  "route": "model",
+  "modelMs": 8.6,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.008,
+    "delivery": 0.0035,
+    "account": 0.024,
+    "technical": 0.9524,
+    "travel": 0.0036,
+    "service": 0.0015,
+    "question": 0.0047,
+    "other": 0.0022
+   },
+   "priority": {
+    "high": 0.1046,
+    "medium": 0.8547,
+    "low": 0.0407
+   }
+  }
+ },
+ {
+  "id": "1376925",
+  "brand": "AskTarget",
+  "text": "What’s up @user ?! But it said you had 5 copies! On to our 3rd Target. #Plattenums on a mission💜🙌🏻 #WAVES 🌊🌊🌊 @user <url>",
+  "receivedAt": 1794065401535,
+  "doneAt": 1794065401559,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.7078,
+  "route": "model",
+  "modelMs": 24.33,
+  "llmMs": null,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0164,
+    "delivery": 0.8308,
+    "account": 0.0092,
+    "technical": 0.0415,
+    "travel": 0.0069,
+    "service": 0.0485,
+    "question": 0.0122,
+    "other": 0.0347
+   },
+   "priority": {
+    "high": 0.015,
+    "medium": 0.7078,
+    "low": 0.2772
+   }
+  }
+ },
+ {
+  "id": "806037",
+  "brand": "LondonMidland",
+  "text": "@LondonMidland train from stoke to stone no information given on time etc just had to pay £20 for a taxi !!! not happy !!!! 😡😡😡",
+  "receivedAt": 1794065378535,
+  "doneAt": 1794065379516,
+  "burst": false,
+  "category": "travel",
+  "priority": "high",
+  "confidence": 0.5003,
+  "route": "llm",
+  "modelMs": 5.47,
+  "llmMs": 975.5,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0195,
+    "delivery": 0.0103,
+    "account": 0.0015,
+    "technical": 0.0071,
+    "travel": 0.9385,
+    "service": 0.0163,
+    "question": 0.0035,
+    "other": 0.0033
+   },
+   "priority": {
+    "high": 0.4756,
+    "medium": 0.5003,
+    "low": 0.0241
+   }
+  }
+ },
+ {
+  "id": "560052",
+  "brand": "Delta",
+  "text": "Guys, don't fly @delta. But do enjoy the rest of your day. Thanks.",
+  "receivedAt": 1794065355535,
+  "doneAt": 1794065355539,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.8066,
+  "route": "model",
+  "modelMs": 4.23,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.005,
+    "delivery": 0.0055,
+    "account": 0.0047,
+    "technical": 0.0051,
+    "travel": 0.1417,
+    "service": 0.0164,
+    "question": 0.015,
+    "other": 0.8066
+   },
+   "priority": {
+    "high": 0.0085,
+    "medium": 0.0201,
+    "low": 0.9714
+   }
+  }
+ },
+ {
+  "id": "202298",
+  "brand": "ArbysCares",
+  "text": "@user you have the worst drive thru in town. You remodeled the store but not the drive thru? 🤦🏽‍♀️",
+  "receivedAt": 1794065332535,
+  "doneAt": 1794065332540,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.8093,
+  "route": "model",
+  "modelMs": 5.53,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0032,
+    "delivery": 0.0455,
+    "account": 0.0028,
+    "technical": 0.0114,
+    "travel": 0.0037,
+    "service": 0.9202,
+    "question": 0.0042,
+    "other": 0.009
+   },
+   "priority": {
+    "high": 0.0667,
+    "medium": 0.8093,
+    "low": 0.1239
+   }
+  }
+ },
+ {
+  "id": "2088064",
+  "brand": "VirginAmerica",
+  "text": "@VirginAmerica what is going on with your flight from BOS to SFO? Worst travel experience of my life. Terrible customer experience #notagain",
+  "receivedAt": 1794065309535,
+  "doneAt": 1794065310751,
+  "burst": false,
+  "category": "travel",
+  "priority": "medium",
+  "confidence": 0.6486,
+  "route": "llm",
+  "modelMs": 6.18,
+  "llmMs": 1210.7,
+  "student": {
+   "category": "travel",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0107,
+    "delivery": 0.0179,
+    "account": 0.0022,
+    "technical": 0.0097,
+    "travel": 0.9247,
+    "service": 0.0285,
+    "question": 0.0026,
+    "other": 0.0038
+   },
+   "priority": {
+    "high": 0.6486,
+    "medium": 0.3373,
+    "low": 0.0141
+   }
+  }
+ },
+ {
+  "id": "2262491",
+  "brand": "AskRBC",
+  "text": "@user when are you going to get on board with Android Pay?",
+  "receivedAt": 1794065286535,
+  "doneAt": 1794065286538,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.7879,
+  "route": "model",
+  "modelMs": 3.12,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.148,
+    "delivery": 0.0034,
+    "account": 0.0125,
+    "technical": 0.0152,
+    "travel": 0.0157,
+    "service": 0.0074,
+    "question": 0.7879,
+    "other": 0.0099
+   },
+   "priority": {
+    "high": 0.0348,
+    "medium": 0.1395,
+    "low": 0.8257
+   }
+  }
+ },
+ {
+  "id": "1781242",
+  "brand": "AirbnbHelp",
+  "text": "@AirbnbHelp I just booked my first trip using airbnb, however I didn't get the first trip discount. Can you help me correct this?",
+  "receivedAt": 1794065263535,
+  "doneAt": 1794065263546,
+  "burst": false,
+  "category": "billing",
+  "priority": "medium",
+  "confidence": 0.7427,
+  "route": "model",
+  "modelMs": 11.94,
+  "llmMs": null,
+  "student": {
+   "category": "billing",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.8192,
+    "delivery": 0.0059,
+    "account": 0.0207,
+    "technical": 0.0103,
+    "travel": 0.097,
+    "service": 0.0063,
+    "question": 0.0365,
+    "other": 0.0041
+   },
+   "priority": {
+    "high": 0.0487,
+    "medium": 0.7427,
+    "low": 0.2086
+   }
+  }
+ },
+ {
+  "id": "698472",
+  "brand": "LondonMidland",
+  "text": "@LondonMidland what's happening with the 8.17 from Liverpool south parkway to Birmingham?",
+  "receivedAt": 1794065240535,
+  "doneAt": 1794065240549,
+  "burst": false,
+  "category": "travel",
+  "priority": "medium",
+  "confidence": 0.7706,
+  "route": "model",
+  "modelMs": 14.79,
+  "llmMs": null,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0054,
+    "delivery": 0.0237,
+    "account": 0.0013,
+    "technical": 0.0129,
+    "travel": 0.9373,
+    "service": 0.013,
+    "question": 0.0043,
+    "other": 0.0022
+   },
+   "priority": {
+    "high": 0.1806,
+    "medium": 0.7706,
+    "low": 0.0488
+   }
+  }
+ },
+ {
+  "id": "827510",
+  "brand": "VMUcare",
+  "text": "@VMUcare thank you virgin USA .. I bought my first I phone 5 in USA at the apple store there .. someone stolen that first I phone",
+  "receivedAt": 1794065217535,
+  "doneAt": 1794065218549,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.5293,
+  "route": "llm",
+  "modelMs": 5.75,
+  "llmMs": 1008.6,
+  "student": {
+   "category": "other",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.1672,
+    "delivery": 0.1005,
+    "account": 0.1131,
+    "technical": 0.0054,
+    "travel": 0.0323,
+    "service": 0.0425,
+    "question": 0.0096,
+    "other": 0.5293
+   },
+   "priority": {
+    "high": 0.8268,
+    "medium": 0.0509,
+    "low": 0.1223
+   }
+  }
+ },
+ {
+  "id": "368539",
+  "brand": "idea_cares",
+  "text": "@idea_cares i have sent you my number in message . <url>",
+  "receivedAt": 1794065194535,
+  "doneAt": 1794065194538,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.7689,
+  "route": "model",
+  "modelMs": 3.66,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0203,
+    "delivery": 0.015,
+    "account": 0.1153,
+    "technical": 0.0046,
+    "travel": 0.0031,
+    "service": 0.0555,
+    "question": 0.0173,
+    "other": 0.7689
+   },
+   "priority": {
+    "high": 0.0561,
+    "medium": 0.1662,
+    "low": 0.7777
+   }
+  }
+ },
+ {
+  "id": "622270",
+  "brand": "USCellularCares",
+  "text": "I HATE Verizon with everything in me. I’m definitely going back to US Cellular",
+  "receivedAt": 1794065171535,
+  "doneAt": 1794065171538,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.8228,
+  "route": "model",
+  "modelMs": 3.39,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0107,
+    "delivery": 0.0122,
+    "account": 0.0198,
+    "technical": 0.0886,
+    "travel": 0.0059,
+    "service": 0.0254,
+    "question": 0.0147,
+    "other": 0.8228
+   },
+   "priority": {
+    "high": 0.0085,
+    "medium": 0.0811,
+    "low": 0.9103
+   }
+  }
+ },
+ {
+  "id": "1465935",
+  "brand": "sainsburys",
+  "text": "Whoever it was @sainsburys that pitched the idea of pretzels at the freshly baked section: I love you",
+  "receivedAt": 1794065148535,
+  "doneAt": 1794065148539,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.7908,
+  "route": "model",
+  "modelMs": 4.19,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0073,
+    "delivery": 0.0357,
+    "account": 0.0048,
+    "technical": 0.0059,
+    "travel": 0.0121,
+    "service": 0.1051,
+    "question": 0.0384,
+    "other": 0.7908
+   },
+   "priority": {
+    "high": 0.0047,
+    "medium": 0.0277,
+    "low": 0.9676
+   }
+  }
+ },
+ {
+  "id": "931133",
+  "brand": "SouthwestAir",
+  "text": "A baby bird is leaving the nest! Excited to be on this 11-day old @SouthwestAir#737MAX flight from @user to @user ! <url>",
+  "receivedAt": 1794065125535,
+  "doneAt": 1794065125542,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.7102,
+  "route": "model",
+  "modelMs": 7.36,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.004,
+    "delivery": 0.0089,
+    "account": 0.0039,
+    "technical": 0.0051,
+    "travel": 0.2451,
+    "service": 0.0101,
+    "question": 0.0127,
+    "other": 0.7102
+   },
+   "priority": {
+    "high": 0.0211,
+    "medium": 0.0281,
+    "low": 0.9508
+   }
+  }
+ },
+ {
+  "id": "835457",
+  "brand": "asksalesforce",
+  "text": "Is manual sharing for lightning in Winter 18 or is that still a future function? #salesforce @user @user",
+  "receivedAt": 1794065102535,
+  "doneAt": 1794065102543,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.9074,
+  "route": "model",
+  "modelMs": 8.71,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0084,
+    "delivery": 0.0035,
+    "account": 0.0081,
+    "technical": 0.0347,
+    "travel": 0.0159,
+    "service": 0.0066,
+    "question": 0.9074,
+    "other": 0.0154
+   },
+   "priority": {
+    "high": 0.003,
+    "medium": 0.0248,
+    "low": 0.9722
+   }
+  }
+ },
+ {
+  "id": "2962284",
+  "brand": "SouthwestAir",
+  "text": "Another perspective for #wingletwednesday & #seat22a @SouthwestAir <url>",
+  "receivedAt": 1794065079535,
+  "doneAt": 1794065080425,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.561,
+  "route": "llm",
+  "modelMs": 7.27,
+  "llmMs": 883.1,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0056,
+    "delivery": 0.005,
+    "account": 0.0039,
+    "technical": 0.0052,
+    "travel": 0.3813,
+    "service": 0.0181,
+    "question": 0.0199,
+    "other": 0.561
+   },
+   "priority": {
+    "high": 0.0131,
+    "medium": 0.0351,
+    "low": 0.9518
+   }
+  }
+ },
+ {
+  "id": "2043586",
+  "brand": "GooglePlayMusic",
+  "text": "@GooglePlayMusic so disappointed that you now translate artists from eng to rus. Not needed at all and completely ruins user experience..( <url>",
+  "receivedAt": 1794065056535,
+  "doneAt": 1794065057499,
+  "burst": false,
+  "category": "technical",
+  "priority": "low",
+  "confidence": 0.4284,
+  "route": "llm",
+  "modelMs": 6.18,
+  "llmMs": 958.5,
+  "student": {
+   "category": "technical",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0261,
+    "delivery": 0.0238,
+    "account": 0.0322,
+    "technical": 0.4284,
+    "travel": 0.0447,
+    "service": 0.2916,
+    "question": 0.0716,
+    "other": 0.0816
+   },
+   "priority": {
+    "high": 0.0053,
+    "medium": 0.4331,
+    "low": 0.5616
+   }
+  }
+ },
+ {
+  "id": "311254",
+  "brand": "UPSHelp",
+  "text": "@user \"The package was not ready at the time of the first pickup attempt.\" You just let your drivers lie like that? No one came by.",
+  "receivedAt": 1794065033535,
+  "doneAt": 1794065033545,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.8077,
+  "route": "model",
+  "modelMs": 10.06,
+  "llmMs": null,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0042,
+    "delivery": 0.9092,
+    "account": 0.0029,
+    "technical": 0.0033,
+    "travel": 0.0046,
+    "service": 0.0674,
+    "question": 0.0023,
+    "other": 0.006
+   },
+   "priority": {
+    "high": 0.1025,
+    "medium": 0.8077,
+    "low": 0.0898
+   }
+  }
+ },
+ {
+  "id": "2101746",
+  "brand": "AskSeagate",
+  "text": "@AskSeagate Hey ! Upgrading my laptop with Firecuda SSHD drives. I read it isn't so fast on Linux machines and dual boot systems ? Help !",
+  "receivedAt": 1794065010535,
+  "doneAt": 1794065010553,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.7117,
+  "route": "model",
+  "modelMs": 18.16,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0052,
+    "delivery": 0.0047,
+    "account": 0.0051,
+    "technical": 0.9463,
+    "travel": 0.0088,
+    "service": 0.0052,
+    "question": 0.0189,
+    "other": 0.0056
+   },
+   "priority": {
+    "high": 0.0407,
+    "medium": 0.7117,
+    "low": 0.2475
+   }
+  }
+ },
+ {
+  "id": "2634310",
+  "brand": "GoDaddyHelp",
+  "text": "@GoDaddyHelp - I didn't want to renew my domain and have now been charged an extortionate amount. I need to cancel but can't speak to anyone. Please help.",
+  "receivedAt": 1794064987535,
+  "doneAt": 1794064988675,
+  "burst": false,
+  "category": "billing",
+  "priority": "high",
+  "confidence": 0.5097,
+  "route": "llm",
+  "modelMs": 6.96,
+  "llmMs": 1133.1,
+  "student": {
+   "category": "billing",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.5097,
+    "delivery": 0.009,
+    "account": 0.4507,
+    "technical": 0.006,
+    "travel": 0.007,
+    "service": 0.0054,
+    "question": 0.0054,
+    "other": 0.0067
+   },
+   "priority": {
+    "high": 0.9167,
+    "medium": 0.0747,
+    "low": 0.0086
+   }
+  }
+ },
+ {
+  "id": "2047174",
+  "brand": "ask_progressive",
+  "text": "@user @ask_progressive someone please contact me to perhaps explain a number of egregious instances occurring w/ a current situation",
+  "receivedAt": 1794064964535,
+  "doneAt": 1794064964539,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7123,
+  "route": "model",
+  "modelMs": 4.77,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0074,
+    "delivery": 0.0063,
+    "account": 0.0088,
+    "technical": 0.0088,
+    "travel": 0.0058,
+    "service": 0.9232,
+    "question": 0.026,
+    "other": 0.0138
+   },
+   "priority": {
+    "high": 0.1192,
+    "medium": 0.7123,
+    "low": 0.1685
+   }
+  }
+ },
+ {
+  "id": "1856428",
+  "brand": "hulu_support",
+  "text": "Won’t be renewing my @user live account after the WS. Just poor performance. @hulu_support @user",
+  "receivedAt": 1794064941535,
+  "doneAt": 1794064941539,
+  "burst": false,
+  "category": "account",
+  "priority": "medium",
+  "confidence": 0.7069,
+  "route": "model",
+  "modelMs": 4.85,
+  "llmMs": null,
+  "student": {
+   "category": "account",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0863,
+    "delivery": 0.0038,
+    "account": 0.7069,
+    "technical": 0.1684,
+    "travel": 0.0024,
+    "service": 0.0191,
+    "question": 0.0048,
+    "other": 0.0082
+   },
+   "priority": {
+    "high": 0.2028,
+    "medium": 0.7558,
+    "low": 0.0414
+   }
+  }
+ },
+ {
+  "id": "2074423",
+  "brand": "HiltonHelp",
+  "text": "@user 8.20am is NOT an appropriate time for housekeeping! It’s too early to even warrant the do not disturb sign...! @user",
+  "receivedAt": 1794064918535,
+  "doneAt": 1794064918548,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7576,
+  "route": "model",
+  "modelMs": 13.39,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0067,
+    "delivery": 0.0232,
+    "account": 0.0044,
+    "technical": 0.0119,
+    "travel": 0.0384,
+    "service": 0.8933,
+    "question": 0.0118,
+    "other": 0.0103
+   },
+   "priority": {
+    "high": 0.0453,
+    "medium": 0.7576,
+    "low": 0.1971
+   }
+  }
+ },
+ {
+  "id": "579241",
+  "brand": "marksandspencer",
+  "text": "@marksandspencer really disappointed when we came to make our tea tonight. How do you make Fajitas with these 🤔 & the sauce leaked ☹️ <url>",
+  "receivedAt": 1794064895535,
+  "doneAt": 1794064895558,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.7039,
+  "route": "model",
+  "modelMs": 23.96,
+  "llmMs": null,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0096,
+    "delivery": 0.7039,
+    "account": 0.0053,
+    "technical": 0.0092,
+    "travel": 0.0069,
+    "service": 0.2214,
+    "question": 0.0367,
+    "other": 0.007
+   },
+   "priority": {
+    "high": 0.0378,
+    "medium": 0.747,
+    "low": 0.2151
+   }
+  }
+ },
+ {
+  "id": "1597978",
+  "brand": "DellCares",
+  "text": "May I know what's the difference between DellSupportAssist and DellSupportAssistAgent software? @DellCares cause I have both installed here <url>",
+  "receivedAt": 1794064872535,
+  "doneAt": 1794064873490,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.6102,
+  "route": "llm",
+  "modelMs": 17.68,
+  "llmMs": 937.8,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.019,
+    "delivery": 0.0054,
+    "account": 0.0272,
+    "technical": 0.3029,
+    "travel": 0.0108,
+    "service": 0.0087,
+    "question": 0.6102,
+    "other": 0.0157
+   },
+   "priority": {
+    "high": 0.012,
+    "medium": 0.2138,
+    "low": 0.7742
+   }
+  }
+ },
+ {
+  "id": "1192232",
+  "brand": "TMobileHelp",
+  "text": "@user SEND HELP TO @user IMMEDIATELY",
+  "receivedAt": 1794064849535,
+  "doneAt": 1794064850501,
+  "burst": false,
+  "category": "other",
+  "priority": "high",
+  "confidence": 0.6321,
+  "route": "llm",
+  "modelMs": 7.71,
+  "llmMs": 958.9,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.004,
+    "delivery": 0.0113,
+    "account": 0.0168,
+    "technical": 0.0101,
+    "travel": 0.0044,
+    "service": 0.8712,
+    "question": 0.0108,
+    "other": 0.0713
+   },
+   "priority": {
+    "high": 0.0557,
+    "medium": 0.6321,
+    "low": 0.3122
+   }
+  }
+ },
+ {
+  "id": "2897439",
+  "brand": "DropboxSupport",
+  "text": "Hi there @DropboxSupport Recently sent a request for help. Have heard nothing since, other than a request for feedback. \"Hi, How did we do?\" Errrr, you haven't done anything. So please can you do something, so I can give some reasonable feedback. Thanks",
+  "receivedAt": 1794064826535,
+  "doneAt": 1794064827515,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.601,
+  "route": "llm",
+  "modelMs": 20.73,
+  "llmMs": 959.7,
+  "student": {
+   "category": "service",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0099,
+    "delivery": 0.0099,
+    "account": 0.0337,
+    "technical": 0.0184,
+    "travel": 0.0096,
+    "service": 0.614,
+    "question": 0.2079,
+    "other": 0.0966
+   },
+   "priority": {
+    "high": 0.0237,
+    "medium": 0.3754,
+    "low": 0.601
+   }
+  }
+ },
+ {
+  "id": "192803",
+  "brand": "YahooCare",
+  "text": "@YahooCare I have my __email__ email listed twice I would like to delete the second __email__ email. <url>",
+  "receivedAt": 1794064803535,
+  "doneAt": 1794064803556,
+  "burst": false,
+  "category": "account",
+  "priority": "medium",
+  "confidence": 0.7222,
+  "route": "model",
+  "modelMs": 21.22,
+  "llmMs": null,
+  "student": {
+   "category": "account",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0104,
+    "delivery": 0.0099,
+    "account": 0.9199,
+    "technical": 0.0348,
+    "travel": 0.0018,
+    "service": 0.0039,
+    "question": 0.0093,
+    "other": 0.01
+   },
+   "priority": {
+    "high": 0.1048,
+    "medium": 0.7222,
+    "low": 0.173
+   }
+  }
+ },
+ {
+  "id": "2404331",
+  "brand": "AldiUK",
+  "text": "@AldiUK nice suprise in your tinned tomatoes 😷😷😷😷 <url>",
+  "receivedAt": 1794064780535,
+  "doneAt": 1794064781190,
+  "burst": false,
+  "category": "service",
+  "priority": "high",
+  "confidence": 0.4725,
+  "route": "llm",
+  "modelMs": 16.41,
+  "llmMs": 639.1,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0092,
+    "delivery": 0.2734,
+    "account": 0.0059,
+    "technical": 0.0068,
+    "travel": 0.0036,
+    "service": 0.2047,
+    "question": 0.0238,
+    "other": 0.4725
+   },
+   "priority": {
+    "high": 0.0152,
+    "medium": 0.1219,
+    "low": 0.8629
+   }
+  }
+ },
+ {
+  "id": "1119358",
+  "brand": "SW_Help",
+  "text": "@SW_Help any reason why my train is delayed from Guildford? Usual silence here at the station. <url>",
+  "receivedAt": 1794064757535,
+  "doneAt": 1794064758501,
+  "burst": false,
+  "category": "travel",
+  "priority": "medium",
+  "confidence": 0.6092,
+  "route": "llm",
+  "modelMs": 4.31,
+  "llmMs": 962.5,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0027,
+    "delivery": 0.006,
+    "account": 0.0012,
+    "technical": 0.0075,
+    "travel": 0.9706,
+    "service": 0.0072,
+    "question": 0.0024,
+    "other": 0.0024
+   },
+   "priority": {
+    "high": 0.3483,
+    "medium": 0.6092,
+    "low": 0.0425
+   }
+  }
+ },
+ {
+  "id": "2145460",
+  "brand": "Safaricom_Care",
+  "text": "@Safaricom_Care my issue is yet unresolved.😡😡",
+  "receivedAt": 1794064734535,
+  "doneAt": 1794064734537,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.7475,
+  "route": "model",
+  "modelMs": 2.91,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0127,
+    "delivery": 0.0036,
+    "account": 0.047,
+    "technical": 0.9194,
+    "travel": 0.002,
+    "service": 0.0055,
+    "question": 0.0061,
+    "other": 0.0036
+   },
+   "priority": {
+    "high": 0.2148,
+    "medium": 0.7475,
+    "low": 0.0377
+   }
+  }
+ },
+ {
+  "id": "2155636",
+  "brand": "ATT",
+  "text": "@ATT I requested an unlock code for my old phone I had bought with ATT- a highly disappointing experience.After multiple requests and 30-50 mins phone calls they just keep sending me the code that isn't working!They just don't care.Beware of their tech support and custom service",
+  "receivedAt": 1794064711535,
+  "doneAt": 1794064711545,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.6777,
+  "route": "model",
+  "modelMs": 10.01,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.1403,
+    "delivery": 0.01,
+    "account": 0.0697,
+    "technical": 0.6954,
+    "travel": 0.0038,
+    "service": 0.0689,
+    "question": 0.0051,
+    "other": 0.0068
+   },
+   "priority": {
+    "high": 0.3059,
+    "medium": 0.6777,
+    "low": 0.0164
+   }
+  }
+ },
+ {
+  "id": "2556996",
+  "brand": "DunkinDonuts",
+  "text": "@DunkinDonuts PLEASE get more locations near The university of Akron... I am tired of lame coffee shops and Starbucks! Help me out",
+  "receivedAt": 1794064688535,
+  "doneAt": 1794064688539,
+  "burst": false,
+  "category": "service",
+  "priority": "low",
+  "confidence": 0.6886,
+  "route": "model",
+  "modelMs": 4.67,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.005,
+    "delivery": 0.0047,
+    "account": 0.0116,
+    "technical": 0.0317,
+    "travel": 0.0213,
+    "service": 0.6886,
+    "question": 0.181,
+    "other": 0.0561
+   },
+   "priority": {
+    "high": 0.0117,
+    "medium": 0.2349,
+    "low": 0.7534
+   }
+  }
+ },
+ {
+  "id": "292697",
+  "brand": "ATT",
+  "text": "@ATT you think a uverse rep will ever contact me who actually cares and help me out? Over/under 50%.",
+  "receivedAt": 1794064665535,
+  "doneAt": 1794064665539,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7758,
+  "route": "model",
+  "modelMs": 4.97,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.035,
+    "delivery": 0.0035,
+    "account": 0.0122,
+    "technical": 0.014,
+    "travel": 0.0038,
+    "service": 0.9098,
+    "question": 0.0056,
+    "other": 0.016
+   },
+   "priority": {
+    "high": 0.1262,
+    "medium": 0.7758,
+    "low": 0.0979
+   }
+  }
+ },
+ {
+  "id": "2951800",
+  "brand": "AmericanAir",
+  "text": "Had to rebook my @AmericanAir flight. Talked to Ashley. She was amazing and great customer service 😊👍🏼",
+  "receivedAt": 1794064642535,
+  "doneAt": 1794064642539,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.718,
+  "route": "model",
+  "modelMs": 4.86,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0053,
+    "delivery": 0.0063,
+    "account": 0.006,
+    "technical": 0.004,
+    "travel": 0.226,
+    "service": 0.0251,
+    "question": 0.0093,
+    "other": 0.718
+   },
+   "priority": {
+    "high": 0.0184,
+    "medium": 0.0314,
+    "low": 0.9502
+   }
+  }
+ },
+ {
+  "id": "1372429",
+  "brand": "AzureSupport",
+  "text": "@azuresupport #azTechHelp There seems to be a bug when managing AAD app keys with PS: <url>",
+  "receivedAt": 1794064619535,
+  "doneAt": 1794064619546,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.8745,
+  "route": "model",
+  "modelMs": 11.72,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0046,
+    "delivery": 0.0012,
+    "account": 0.0065,
+    "technical": 0.9761,
+    "travel": 0.0021,
+    "service": 0.0029,
+    "question": 0.005,
+    "other": 0.0017
+   },
+   "priority": {
+    "high": 0.0683,
+    "medium": 0.8745,
+    "low": 0.0572
+   }
+  }
+ },
+ {
+  "id": "546559",
+  "brand": "AppleSupport",
+  "text": "Anyone else’s iPhone battery life fucking shite after iOS11? Come on @user & @AppleSupport - sort this shit out! 🤬",
+  "receivedAt": 1794064596535,
+  "doneAt": 1794064596556,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.6769,
+  "route": "model",
+  "modelMs": 21.42,
+  "llmMs": null,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0046,
+    "delivery": 0.0026,
+    "account": 0.002,
+    "technical": 0.9755,
+    "travel": 0.0013,
+    "service": 0.0096,
+    "question": 0.0009,
+    "other": 0.0034
+   },
+   "priority": {
+    "high": 0.275,
+    "medium": 0.6769,
+    "low": 0.048
+   }
+  }
+ },
+ {
+  "id": "1688445",
+  "brand": "AskVirginMoney",
+  "text": "Be careful buying travel insurance from @user , the only insurer I know who very kindly roll over your policy a whole extra year !",
+  "receivedAt": 1794064573535,
+  "doneAt": 1794064575346,
+  "burst": false,
+  "category": "billing",
+  "priority": "medium",
+  "confidence": 0.4978,
+  "route": "llm",
+  "modelMs": 11.71,
+  "llmMs": 1799.9,
+  "student": {
+   "category": "billing",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.4978,
+    "delivery": 0.009,
+    "account": 0.0605,
+    "technical": 0.0038,
+    "travel": 0.0323,
+    "service": 0.2768,
+    "question": 0.0136,
+    "other": 0.1062
+   },
+   "priority": {
+    "high": 0.1718,
+    "medium": 0.5526,
+    "low": 0.2755
+   }
+  }
+ },
+ {
+  "id": "2154673",
+  "brand": "DellCares",
+  "text": "Out of nowhere my @DellCares XPS 13 has no bluetooth.... halp!?",
+  "receivedAt": 1794064550535,
+  "doneAt": 1794064551468,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.5597,
+  "route": "llm",
+  "modelMs": 14.16,
+  "llmMs": 919.2,
+  "student": {
+   "category": "technical",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0018,
+    "delivery": 0.0024,
+    "account": 0.0028,
+    "technical": 0.9871,
+    "travel": 0.0015,
+    "service": 0.0022,
+    "question": 0.0014,
+    "other": 0.0009
+   },
+   "priority": {
+    "high": 0.4131,
+    "medium": 0.5597,
+    "low": 0.0272
+   }
+  }
+ },
+ {
+  "id": "2360169",
+  "brand": "AskSeagate",
+  "text": "@AskSeagate Hey, just got a receipt order acknowledgement about my return and I have a question about it: It says Total Requested Quantity: 1 and Total Clean Received Quantity: 1. All the others are 0. What does it mean? I can send pictures about it on dms. Thanks.",
+  "receivedAt": 1794064527535,
+  "doneAt": 1794064530664,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.6097,
+  "route": "llm",
+  "modelMs": 33.71,
+  "llmMs": 3095.5,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.1875,
+    "delivery": 0.1088,
+    "account": 0.0504,
+    "technical": 0.0092,
+    "travel": 0.0154,
+    "service": 0.012,
+    "question": 0.6097,
+    "other": 0.0068
+   },
+   "priority": {
+    "high": 0.0134,
+    "medium": 0.3205,
+    "low": 0.6661
+   }
+  }
+ },
+ {
+  "id": "2441684",
+  "brand": "IHGService",
+  "text": "@user @user question for ya? Requested a new card, came in today, expires December??",
+  "receivedAt": 1794064504535,
+  "doneAt": 1794064505538,
+  "burst": false,
+  "category": "billing",
+  "priority": "medium",
+  "confidence": 0.4859,
+  "route": "llm",
+  "modelMs": 4.02,
+  "llmMs": 999.2,
+  "student": {
+   "category": "billing",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.4859,
+    "delivery": 0.0616,
+    "account": 0.2521,
+    "technical": 0.0058,
+    "travel": 0.0064,
+    "service": 0.0049,
+    "question": 0.1727,
+    "other": 0.0107
+   },
+   "priority": {
+    "high": 0.0436,
+    "medium": 0.5518,
+    "low": 0.4047
+   }
+  }
+ },
+ {
+  "id": "220459",
+  "brand": "AskVirginMoney",
+  "text": "@user why am I having a nightmare with your cs?! 2 hrs so far and uve debited more money when it should be credited! 😡#annoyed",
+  "receivedAt": 1794064481535,
+  "doneAt": 1794064481546,
+  "burst": false,
+  "category": "billing",
+  "priority": "high",
+  "confidence": 0.8047,
+  "route": "model",
+  "modelMs": 11.11,
+  "llmMs": null,
+  "student": {
+   "category": "billing",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.8884,
+    "delivery": 0.008,
+    "account": 0.0076,
+    "technical": 0.0514,
+    "travel": 0.0136,
+    "service": 0.0245,
+    "question": 0.003,
+    "other": 0.0034
+   },
+   "priority": {
+    "high": 0.8047,
+    "medium": 0.1866,
+    "low": 0.0087
+   }
+  }
+ },
+ {
+  "id": "937885",
+  "brand": "GWRHelp",
+  "text": "@GWRHelp are there still works being done in reading?",
+  "receivedAt": 1794064458535,
+  "doneAt": 1794064458546,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.7525,
+  "route": "model",
+  "modelMs": 11.77,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0064,
+    "delivery": 0.0047,
+    "account": 0.0096,
+    "technical": 0.0281,
+    "travel": 0.1391,
+    "service": 0.0346,
+    "question": 0.7525,
+    "other": 0.0249
+   },
+   "priority": {
+    "high": 0.0059,
+    "medium": 0.0684,
+    "low": 0.9257
+   }
+  }
+ },
+ {
+  "id": "115386",
+  "brand": "Delta",
+  "text": "@Delta here we are again. Just another day with a delay and mechanical issues. Is this beer on you? Happy Thanksgiving! <url>",
+  "receivedAt": 1794064435535,
+  "doneAt": 1794064440024,
+  "burst": false,
+  "category": "travel",
+  "priority": "medium",
+  "confidence": 0.637,
+  "route": "llm",
+  "modelMs": 4.88,
+  "llmMs": 4484.8,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0035,
+    "delivery": 0.0251,
+    "account": 0.0008,
+    "technical": 0.0052,
+    "travel": 0.9384,
+    "service": 0.0146,
+    "question": 0.0041,
+    "other": 0.0084
+   },
+   "priority": {
+    "high": 0.2452,
+    "medium": 0.637,
+    "low": 0.1178
+   }
+  }
+ },
+ {
+  "id": "42431",
+  "brand": "KFC_UKI_Help",
+  "text": "@KFC_UKI_Help had the single worst experience I have ever had in any restaurant. Had bag thrown at me received attitude and got starred down for complaining",
+  "receivedAt": 1794064412535,
+  "doneAt": 1794064412546,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.7552,
+  "route": "model",
+  "modelMs": 11.76,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0041,
+    "delivery": 0.177,
+    "account": 0.004,
+    "technical": 0.0062,
+    "travel": 0.0072,
+    "service": 0.7932,
+    "question": 0.0023,
+    "other": 0.006
+   },
+   "priority": {
+    "high": 0.1966,
+    "medium": 0.7552,
+    "low": 0.0482
+   }
+  }
+ },
+ {
+  "id": "428568",
+  "brand": "Postmates_Help",
+  "text": "Never using @user again. Worst support I've ever encountered",
+  "receivedAt": 1794064389535,
+  "doneAt": 1794064389547,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.6614,
+  "route": "model",
+  "modelMs": 12.09,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.005,
+    "delivery": 0.0088,
+    "account": 0.0097,
+    "technical": 0.016,
+    "travel": 0.0027,
+    "service": 0.9135,
+    "question": 0.0066,
+    "other": 0.0377
+   },
+   "priority": {
+    "high": 0.0316,
+    "medium": 0.6614,
+    "low": 0.307
+   }
+  }
+ },
+ {
+  "id": "965586",
+  "brand": "Ask_WellsFargo",
+  "text": "i need wells fargo to lock my bank acct or sumn i spend money like i'm a millionaire",
+  "receivedAt": 1794064366535,
+  "doneAt": 1794064369527,
+  "burst": false,
+  "category": "account",
+  "priority": "low",
+  "confidence": 0.6125,
+  "route": "llm",
+  "modelMs": 3.73,
+  "llmMs": 2988.7,
+  "student": {
+   "category": "account",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0801,
+    "delivery": 0.0014,
+    "account": 0.8758,
+    "technical": 0.0046,
+    "travel": 0.0032,
+    "service": 0.01,
+    "question": 0.0122,
+    "other": 0.0127
+   },
+   "priority": {
+    "high": 0.6125,
+    "medium": 0.2194,
+    "low": 0.1681
+   }
+  }
+ },
+ {
+  "id": "2523197",
+  "brand": "British_Airways",
+  "text": "@British_Airways which lounges will be available @user ? 🤔",
+  "receivedAt": 1794064343535,
+  "doneAt": 1794064343537,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.7206,
+  "route": "model",
+  "modelMs": 2.79,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0063,
+    "delivery": 0.0104,
+    "account": 0.0059,
+    "technical": 0.0063,
+    "travel": 0.2229,
+    "service": 0.0091,
+    "question": 0.7206,
+    "other": 0.0185
+   },
+   "priority": {
+    "high": 0.0043,
+    "medium": 0.0332,
+    "low": 0.9625
+   }
+  }
+ },
+ {
+  "id": "1348921",
+  "brand": "DunkinDonuts",
+  "text": "@DunkinDonuts I orered 2 hashbrowns on the go and only got 1 at pick up😢",
+  "receivedAt": 1794064320535,
+  "doneAt": 1794064320539,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.723,
+  "route": "model",
+  "modelMs": 4.0,
+  "llmMs": null,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.024,
+    "delivery": 0.723,
+    "account": 0.0133,
+    "technical": 0.0304,
+    "travel": 0.0018,
+    "service": 0.1848,
+    "question": 0.0056,
+    "other": 0.0171
+   },
+   "priority": {
+    "high": 0.0432,
+    "medium": 0.8339,
+    "low": 0.123
+   }
+  }
+ },
+ {
+  "id": "228660",
+  "brand": "AskRobinhood",
+  "text": "@AskRobinhood Hi team, I am still waiting for my application to be approved since last weekend. Any updates?",
+  "receivedAt": 1794064297535,
+  "doneAt": 1794064297543,
+  "burst": false,
+  "category": "account",
+  "priority": "medium",
+  "confidence": 0.6699,
+  "route": "model",
+  "modelMs": 8.02,
+  "llmMs": null,
+  "student": {
+   "category": "account",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.1207,
+    "delivery": 0.0247,
+    "account": 0.6699,
+    "technical": 0.0972,
+    "travel": 0.0285,
+    "service": 0.0364,
+    "question": 0.018,
+    "other": 0.0047
+   },
+   "priority": {
+    "high": 0.0391,
+    "medium": 0.9108,
+    "low": 0.0502
+   }
+  }
+ },
+ {
+  "id": "600693",
+  "brand": "VirginAtlantic",
+  "text": "Hi @VirginAtlantic, is there any way of setting up a notification for when reward/airmile seats become available on specific flights?",
+  "receivedAt": 1794064274535,
+  "doneAt": 1794064277508,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.6392,
+  "route": "llm",
+  "modelMs": 6.71,
+  "llmMs": 2966.9,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0082,
+    "delivery": 0.0066,
+    "account": 0.0091,
+    "technical": 0.0082,
+    "travel": 0.3115,
+    "service": 0.0083,
+    "question": 0.6392,
+    "other": 0.0089
+   },
+   "priority": {
+    "high": 0.0063,
+    "medium": 0.053,
+    "low": 0.9407
+   }
+  }
+ },
+ {
+  "id": "1685428",
+  "brand": "Morrisons",
+  "text": "Stocking tubs of sweets next to massive packs of washing powder @Morrisons Partick! Delicious for the kids at Christmas! #wakeup <url>",
+  "receivedAt": 1794064251535,
+  "doneAt": 1794064251553,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.9294,
+  "route": "model",
+  "modelMs": 18.04,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.006,
+    "delivery": 0.0126,
+    "account": 0.0043,
+    "technical": 0.0028,
+    "travel": 0.0114,
+    "service": 0.0227,
+    "question": 0.0108,
+    "other": 0.9294
+   },
+   "priority": {
+    "high": 0.0055,
+    "medium": 0.0123,
+    "low": 0.9822
+   }
+  }
+ },
+ {
+  "id": "2705144",
+  "brand": "SpotifyCares",
+  "text": "@user when are you coming to South Africa?",
+  "receivedAt": 1794064228535,
+  "doneAt": 1794064228543,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.8929,
+  "route": "model",
+  "modelMs": 8.8,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0077,
+    "delivery": 0.0108,
+    "account": 0.0066,
+    "technical": 0.0066,
+    "travel": 0.0549,
+    "service": 0.0043,
+    "question": 0.8929,
+    "other": 0.0162
+   },
+   "priority": {
+    "high": 0.0054,
+    "medium": 0.0316,
+    "low": 0.963
+   }
+  }
+ },
+ {
+  "id": "1552120",
+  "brand": "AlaskaAir",
+  "text": "Yo @AlaskaAir what’s really good in Seattle? Customer service lines are super long and my flight’s been delayed like __credit_card__ times.",
+  "receivedAt": 1794064205535,
+  "doneAt": 1794064207676,
+  "burst": false,
+  "category": "travel",
+  "priority": "high",
+  "confidence": 0.6155,
+  "route": "llm",
+  "modelMs": 20.66,
+  "llmMs": 2121.3,
+  "student": {
+   "category": "travel",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0056,
+    "delivery": 0.0056,
+    "account": 0.0009,
+    "technical": 0.0048,
+    "travel": 0.9559,
+    "service": 0.0132,
+    "question": 0.0044,
+    "other": 0.0096
+   },
+   "priority": {
+    "high": 0.2399,
+    "medium": 0.6155,
+    "low": 0.1446
+   }
+  }
+ },
+ {
+  "id": "1094064",
+  "brand": "KeyBank_Help",
+  "text": "@KeyBank_Help I am unable to download transactions to my Quicken account. I already contacted them and was told the problem not on their end",
+  "receivedAt": 1794064182535,
+  "doneAt": 1794064183638,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.3653,
+  "route": "llm",
+  "modelMs": 7.25,
+  "llmMs": 1096.7,
+  "student": {
+   "category": "account",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.2694,
+    "delivery": 0.0114,
+    "account": 0.3653,
+    "technical": 0.332,
+    "travel": 0.0031,
+    "service": 0.0065,
+    "question": 0.0083,
+    "other": 0.0041
+   },
+   "priority": {
+    "high": 0.5194,
+    "medium": 0.4682,
+    "low": 0.0124
+   }
+  }
+ },
+ {
+  "id": "2320689",
+  "brand": "AskPapaJohns",
+  "text": "@user why does your app thing on the philly show mozzarella in description but it’s not a topping choice and only shows one cheese",
+  "receivedAt": 1794064159535,
+  "doneAt": 1794064161477,
+  "burst": false,
+  "category": "technical",
+  "priority": "medium",
+  "confidence": 0.3137,
+  "route": "llm",
+  "modelMs": 4.68,
+  "llmMs": 1937.8,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0248,
+    "delivery": 0.2568,
+    "account": 0.0138,
+    "technical": 0.1418,
+    "travel": 0.0047,
+    "service": 0.2085,
+    "question": 0.3137,
+    "other": 0.0361
+   },
+   "priority": {
+    "high": 0.0079,
+    "medium": 0.2854,
+    "low": 0.7067
+   }
+  }
+ },
+ {
+  "id": "1537264",
+  "brand": "BofA_Help",
+  "text": "@user dtla 6th n hill where they go down to one teller at the busiest time with literally 30 people in line! The worst!",
+  "receivedAt": 1794064136535,
+  "doneAt": 1794064136539,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.8233,
+  "route": "model",
+  "modelMs": 4.51,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0074,
+    "delivery": 0.0069,
+    "account": 0.0067,
+    "technical": 0.0109,
+    "travel": 0.0049,
+    "service": 0.9568,
+    "question": 0.0014,
+    "other": 0.005
+   },
+   "priority": {
+    "high": 0.133,
+    "medium": 0.8233,
+    "low": 0.0436
+   }
+  }
+ },
+ {
+  "id": "976068",
+  "brand": "Ask_WellsFargo",
+  "text": "Wells fargo aint shit i swear 🤦🏿‍♂️",
+  "receivedAt": 1794064113535,
+  "doneAt": 1794064113537,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.6835,
+  "route": "model",
+  "modelMs": 2.46,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.1287,
+    "delivery": 0.0064,
+    "account": 0.0349,
+    "technical": 0.0059,
+    "travel": 0.0062,
+    "service": 0.1244,
+    "question": 0.0098,
+    "other": 0.6835
+   },
+   "priority": {
+    "high": 0.0373,
+    "medium": 0.1199,
+    "low": 0.8428
+   }
+  }
+ },
+ {
+  "id": "419779",
+  "brand": "idea_cares",
+  "text": "Hey need help. Such a poor Customer service you have. @user @user @user @user @idea_cares <url>",
+  "receivedAt": 1794064090535,
+  "doneAt": 1794064090540,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.8454,
+  "route": "model",
+  "modelMs": 5.24,
+  "llmMs": null,
+  "student": {
+   "category": "service",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0073,
+    "delivery": 0.0207,
+    "account": 0.0106,
+    "technical": 0.007,
+    "travel": 0.0026,
+    "service": 0.9376,
+    "question": 0.0044,
+    "other": 0.0098
+   },
+   "priority": {
+    "high": 0.0817,
+    "medium": 0.8454,
+    "low": 0.0729
+   }
+  }
+ },
+ {
+  "id": "593264",
+  "brand": "AirbnbHelp",
+  "text": "@AirbnbHelp I got €20 credit by referral friend, but my account show only €19，can anyone explain?",
+  "receivedAt": 1794064067535,
+  "doneAt": 1794064067542,
+  "burst": false,
+  "category": "billing",
+  "priority": "medium",
+  "confidence": 0.7153,
+  "route": "model",
+  "modelMs": 7.34,
+  "llmMs": null,
+  "student": {
+   "category": "billing",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.9587,
+    "delivery": 0.0014,
+    "account": 0.0192,
+    "technical": 0.004,
+    "travel": 0.0046,
+    "service": 0.0026,
+    "question": 0.0077,
+    "other": 0.0018
+   },
+   "priority": {
+    "high": 0.193,
+    "medium": 0.7153,
+    "low": 0.0917
+   }
+  }
+ },
+ {
+  "id": "1215743",
+  "brand": "SpotifyCares",
+  "text": "@user y'all can you make it so we can switch versions of albums on the app so I don't have to deal with special editions? Thanks Spotify",
+  "receivedAt": 1794064044535,
+  "doneAt": 1794064044553,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.8036,
+  "route": "model",
+  "modelMs": 18.07,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0177,
+    "delivery": 0.0062,
+    "account": 0.0569,
+    "technical": 0.0811,
+    "travel": 0.01,
+    "service": 0.007,
+    "question": 0.8036,
+    "other": 0.0175
+   },
+   "priority": {
+    "high": 0.0035,
+    "medium": 0.0597,
+    "low": 0.9367
+   }
+  }
+ },
+ {
+  "id": "2910280",
+  "brand": "AWSSupport",
+  "text": "@user hey hey! Is there a link to the livestreams?",
+  "receivedAt": 1794064021535,
+  "doneAt": 1794064021546,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.9411,
+  "route": "model",
+  "modelMs": 11.57,
+  "llmMs": null,
+  "student": {
+   "category": "question",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0067,
+    "delivery": 0.0038,
+    "account": 0.006,
+    "technical": 0.0119,
+    "travel": 0.0088,
+    "service": 0.0054,
+    "question": 0.9411,
+    "other": 0.0163
+   },
+   "priority": {
+    "high": 0.0039,
+    "medium": 0.0177,
+    "low": 0.9784
+   }
+  }
+ },
+ {
+  "id": "167643",
+  "brand": "Morrisons",
+  "text": "Instead of covering it with the biggest sign ever why don't you try mopping the puddle up!!! No idea how long it had been there... probably still there now!!! Just common sense @Morrisons #halfway #killamarsh",
+  "receivedAt": 1794063998535,
+  "doneAt": 1794064000044,
+  "burst": false,
+  "category": "service",
+  "priority": "medium",
+  "confidence": 0.6484,
+  "route": "llm",
+  "modelMs": 30.63,
+  "llmMs": 1479.4,
+  "student": {
+   "category": "service",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0032,
+    "delivery": 0.1048,
+    "account": 0.005,
+    "technical": 0.0085,
+    "travel": 0.038,
+    "service": 0.6484,
+    "question": 0.0261,
+    "other": 0.166
+   },
+   "priority": {
+    "high": 0.0422,
+    "medium": 0.2278,
+    "low": 0.7299
+   }
+  }
+ },
+ {
+  "id": "2916054",
+  "brand": "UPSHelp",
+  "text": "wtf im gonna fight the ups man in charge of my delivery cos it still aiNT HERE",
+  "receivedAt": 1794063975535,
+  "doneAt": 1794063976502,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.5314,
+  "route": "llm",
+  "modelMs": 6.7,
+  "llmMs": 960.7,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0066,
+    "delivery": 0.9635,
+    "account": 0.0035,
+    "technical": 0.0046,
+    "travel": 0.0015,
+    "service": 0.0164,
+    "question": 0.0012,
+    "other": 0.0028
+   },
+   "priority": {
+    "high": 0.4311,
+    "medium": 0.5314,
+    "low": 0.0375
+   }
+  }
+ },
+ {
+  "id": "133249",
+  "brand": "VirginAtlantic",
+  "text": "@VirginAtlantic please could someone help me, I’m stranded at JNB airport having missed a connection and no Virgin reps here booking <url>",
+  "receivedAt": 1794063952535,
+  "doneAt": 1794063952552,
+  "burst": false,
+  "category": "travel",
+  "priority": "high",
+  "confidence": 0.8849,
+  "route": "model",
+  "modelMs": 17.39,
+  "llmMs": null,
+  "student": {
+   "category": "travel",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0054,
+    "delivery": 0.0078,
+    "account": 0.0051,
+    "technical": 0.0064,
+    "travel": 0.964,
+    "service": 0.004,
+    "question": 0.003,
+    "other": 0.0043
+   },
+   "priority": {
+    "high": 0.8849,
+    "medium": 0.1029,
+    "low": 0.0122
+   }
+  }
+ },
+ {
+  "id": "423414",
+  "brand": "OPPOCareIN",
+  "text": "@user I wrote u about my idea for new camera functionality I hope u like it. If u call back to me I can clearly express my idea",
+  "receivedAt": 1794063929535,
+  "doneAt": 1794063929555,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.809,
+  "route": "model",
+  "modelMs": 20.72,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0179,
+    "delivery": 0.0107,
+    "account": 0.0196,
+    "technical": 0.0264,
+    "travel": 0.0059,
+    "service": 0.0469,
+    "question": 0.0635,
+    "other": 0.809
+   },
+   "priority": {
+    "high": 0.005,
+    "medium": 0.0431,
+    "low": 0.9518
+   }
+  }
+ },
+ {
+  "id": "407362",
+  "brand": "DoorDash_Help",
+  "text": "@DoorDash_Help omg my dasher was suppose to arrive almost 30 minutes ago and they’re still not here what do I do",
+  "receivedAt": 1794063906535,
+  "doneAt": 1794063907755,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.5582,
+  "route": "llm",
+  "modelMs": 7.19,
+  "llmMs": 1213.3,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0072,
+    "delivery": 0.8536,
+    "account": 0.0073,
+    "technical": 0.0201,
+    "travel": 0.095,
+    "service": 0.0106,
+    "question": 0.0028,
+    "other": 0.0033
+   },
+   "priority": {
+    "high": 0.4232,
+    "medium": 0.5582,
+    "low": 0.0186
+   }
+  }
+ },
+ {
+  "id": "2230369",
+  "brand": "MOO",
+  "text": "The ribotRainbow! New #businesscards thanks to @moo 😊#rainbow #ourteamrocks <url> <url>",
+  "receivedAt": 1794063883535,
+  "doneAt": 1794063883548,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.9395,
+  "route": "model",
+  "modelMs": 13.12,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0055,
+    "delivery": 0.0043,
+    "account": 0.0053,
+    "technical": 0.0046,
+    "travel": 0.0233,
+    "service": 0.0071,
+    "question": 0.0104,
+    "other": 0.9395
+   },
+   "priority": {
+    "high": 0.0072,
+    "medium": 0.0119,
+    "low": 0.9809
+   }
+  }
+ },
+ {
+  "id": "1174714",
+  "brand": "TwitterSupport",
+  "text": "@TwitterSupport I need ur help, I cant log in my main account 😐😐😐",
+  "receivedAt": 1794063860535,
+  "doneAt": 1794063860548,
+  "burst": false,
+  "category": "account",
+  "priority": "high",
+  "confidence": 0.9093,
+  "route": "model",
+  "modelMs": 13.57,
+  "llmMs": null,
+  "student": {
+   "category": "account",
+   "priority": "high"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0091,
+    "delivery": 0.0049,
+    "account": 0.9258,
+    "technical": 0.0428,
+    "travel": 0.0042,
+    "service": 0.0036,
+    "question": 0.0036,
+    "other": 0.0059
+   },
+   "priority": {
+    "high": 0.9093,
+    "medium": 0.0801,
+    "low": 0.0106
+   }
+  }
+ },
+ {
+  "id": "2348108",
+  "brand": "Tesco",
+  "text": "Would really appreciate a response @user @Tesco. Are your turkeys stunned pre slaughter, halal or not? <url>",
+  "receivedAt": 1794063837535,
+  "doneAt": 1794063838778,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.4639,
+  "route": "llm",
+  "modelMs": 16.41,
+  "llmMs": 1227.5,
+  "student": {
+   "category": "service",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0119,
+    "delivery": 0.3689,
+    "account": 0.005,
+    "technical": 0.0044,
+    "travel": 0.008,
+    "service": 0.4639,
+    "question": 0.1202,
+    "other": 0.0177
+   },
+   "priority": {
+    "high": 0.0568,
+    "medium": 0.4288,
+    "low": 0.5144
+   }
+  }
+ },
+ {
+  "id": "2963698",
+  "brand": "sprintcare",
+  "text": "Why is my order still pending. It's about to be two weeks... @sprintcare",
+  "receivedAt": 1794063814535,
+  "doneAt": 1794063814548,
+  "burst": false,
+  "category": "delivery",
+  "priority": "medium",
+  "confidence": 0.7912,
+  "route": "model",
+  "modelMs": 13.9,
+  "llmMs": null,
+  "student": {
+   "category": "delivery",
+   "priority": "medium"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0114,
+    "delivery": 0.9451,
+    "account": 0.0149,
+    "technical": 0.0116,
+    "travel": 0.0021,
+    "service": 0.0103,
+    "question": 0.0024,
+    "other": 0.0022
+   },
+   "priority": {
+    "high": 0.1853,
+    "medium": 0.7912,
+    "low": 0.0235
+   }
+  }
+ },
+ {
+  "id": "723226",
+  "brand": "Safaricom_Care",
+  "text": "@Safaricom_Care can I access my Mpesa agent statement for this year? Agent no: 052661 Agent name: pelmark __email__",
+  "receivedAt": 1794063791535,
+  "doneAt": 1794063792710,
+  "burst": false,
+  "category": "question",
+  "priority": "low",
+  "confidence": 0.4652,
+  "route": "llm",
+  "modelMs": 6.41,
+  "llmMs": 1169.0,
+  "student": {
+   "category": "account",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0907,
+    "delivery": 0.0046,
+    "account": 0.5907,
+    "technical": 0.0118,
+    "travel": 0.0036,
+    "service": 0.0081,
+    "question": 0.284,
+    "other": 0.0065
+   },
+   "priority": {
+    "high": 0.0967,
+    "medium": 0.4382,
+    "low": 0.4652
+   }
+  }
+ },
+ {
+  "id": "2400020",
+  "brand": "MOO",
+  "text": "my @MOO eco-cotton business cards are in & I love them! (@ Kervin - @user) <url> <url>",
+  "receivedAt": 1794063768535,
+  "doneAt": 1794063768542,
+  "burst": false,
+  "category": "other",
+  "priority": "low",
+  "confidence": 0.929,
+  "route": "model",
+  "modelMs": 7.46,
+  "llmMs": null,
+  "student": {
+   "category": "other",
+   "priority": "low"
+  },
+  "probs": {
+   "category": {
+    "billing": 0.0076,
+    "delivery": 0.0092,
+    "account": 0.0068,
+    "technical": 0.0046,
+    "travel": 0.0075,
+    "service": 0.0142,
+    "question": 0.0212,
+    "other": 0.929
+   },
+   "priority": {
+    "high": 0.0045,
+    "medium": 0.0111,
+    "low": 0.9844
+   }
+  }
+ }
+]

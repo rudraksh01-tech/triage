@@ -1,0 +1,32 @@
+# Everything except the web app (which goes to Vercel).
+#   docker compose up --build
+services:
+  redis:
+    image: redis:8-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "128mb", "--maxmemory-policy", "noeviction"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+
+  api:
+    build: { context: ., dockerfile: api/Dockerfile }
+    environment:
+      TRIAGE_LLM_API_KEY: ${TRIAGE_LLM_API_KEY:?set it in .env}
+      TRIAGE_LLM_MODEL: ${TRIAGE_LLM_MODEL:-gemini-3.5-flash-lite}
+      TRIAGE_CORS_ORIGINS: '["${WEB_ORIGIN:-http://localhost:3000}"]'
+      TRIAGE_ARTIFACTS_S3_URI: ${TRIAGE_ARTIFACTS_S3_URI:-}
+    ports: ["8000:8000"]
+    deploy:
+      resources:
+        limits: { memory: 900m }
+
+  realtime:
+    build: ./realtime
+    environment:
+      REDIS_URL: redis://redis:6379
+      TRIAGE_API_URL: http://api:8000
+      ALLOWED_ORIGINS: ${WEB_ORIGIN:-http://localhost:3000}
+    ports: ["8080:8080"]
+    depends_on:
+      redis: { condition: service_healthy }
+      api: { condition: service_healthy }

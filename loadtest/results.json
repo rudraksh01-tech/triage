@@ -1,0 +1,81 @@
+{
+ "runs": {
+  "unbatched": [
+   {
+    "name": "steady",
+    "rps": 20.012377855821008,
+    "requests": 600,
+    "failed": 0,
+    "p50_ms": 11.3,
+    "p95_ms": 19.6,
+    "p99_ms": 26.5
+   },
+   {
+    "name": "busy",
+    "rps": 49.98855678622077,
+    "requests": 1500,
+    "failed": 0,
+    "p50_ms": 16.0,
+    "p95_ms": 33.5,
+    "p99_ms": 43.9
+   },
+   {
+    "name": "outage spike",
+    "rps": 99.91226254620395,
+    "requests": 2000,
+    "failed": 0,
+    "p50_ms": 19.9,
+    "p95_ms": 41.6,
+    "p99_ms": 57.1
+   },
+   {
+    "name": "overload",
+    "rps": 83.77997648953273,
+    "requests": 3000,
+    "failed": 0,
+    "p50_ms": 8803.9,
+    "p95_ms": 26355.2,
+    "p99_ms": 29906.5
+   }
+  ],
+  "batched": [
+   {
+    "name": "steady",
+    "rps": 20.005886732172037,
+    "requests": 600,
+    "failed": 0,
+    "p50_ms": 25.6,
+    "p95_ms": 36.7,
+    "p99_ms": 42.3
+   },
+   {
+    "name": "busy",
+    "rps": 50.01316446515067,
+    "requests": 1500,
+    "failed": 0,
+    "p50_ms": 15.8,
+    "p95_ms": 25.5,
+    "p99_ms": 29.6
+   },
+   {
+    "name": "outage spike",
+    "rps": 99.97345254954253,
+    "requests": 2000,
+    "failed": 0,
+    "p50_ms": 21.2,
+    "p95_ms": 50.5,
+    "p99_ms": 66.1
+   },
+   {
+    "name": "overload",
+    "rps": 62.15553853760372,
+    "requests": 3000,
+    "failed": 0,
+    "p50_ms": 20504.7,
+    "p95_ms": 40849.0,
+    "p99_ms": 44073.3
+   }
+  ]
+ },
+ "machine": "2-core laptop CPU, load generator on the same machine"
+}
